@@ -1,14 +1,7 @@
-<?php die('Unauthorized access.'); ?>a:38:{s:2:"id";i:2;s:4:"type";s:8:"document";s:11:"contentType";s:9:"text/html";s:9:"pagetitle";s:31:"Головна сторінка";s:9:"longtitle";s:54:"Welcome to the Evolution CMS Content Management System";s:11:"description";s:0:"";s:5:"alias";s:12:"minimal-base";s:15:"link_attributes";s:0:"";s:9:"published";i:1;s:8:"pub_date";i:0;s:10:"unpub_date";i:0;s:6:"parent";i:0;s:8:"isfolder";i:0;s:9:"introtext";s:0:"";s:7:"content";s:646:"<h3>Install Successful!</h3>
-<p>You have successfully installed Evolution CMS.</p>
-
-<h3>Getting Help</h3>
-<p>The <a href="http://evo.im/" target="_blank">Evolution CMS Community</a> provides a great starting point to learn all things Evolution CMS, or you can also <a href="http://evo.im/">see some great learning resources</a> (books, tutorials, blogs and screencasts).</p>
-<p>Welcome to Evolution CMS!</p>
-
-<hr class="my-5">
+<?php die('Unauthorized access.'); ?>a:38:{s:2:"id";i:2;s:4:"type";s:8:"document";s:11:"contentType";s:9:"text/html";s:9:"pagetitle";s:31:"Головна сторінка";s:9:"longtitle";s:54:"Welcome to the Evolution CMS Content Management System";s:11:"description";s:0:"";s:5:"alias";s:12:"minimal-base";s:15:"link_attributes";s:0:"";s:9:"published";i:1;s:8:"pub_date";i:0;s:10:"unpub_date";i:0;s:6:"parent";i:0;s:8:"isfolder";i:0;s:9:"introtext";s:0:"";s:7:"content";s:230:"<hr class="my-5">
 <h3 class="mb-4">Останні новини</h3>
 
-[!DocLister? &display=`3` &summary=`notags,len:200` &dateSource=`pub_date` &parents=`4` &tvList=`foto` &id=`lastnews` &tpl=`NewsList` &dateFormat=`%d %B %Y`!]";s:8:"richtext";b:1;s:8:"template";i:5;s:9:"menuindex";i:0;s:10:"searchable";i:1;s:9:"cacheable";i:1;s:9:"createdby";i:1;s:9:"createdon";i:1781873631;s:8:"editedby";i:1;s:8:"editedon";i:1781979634;s:7:"deleted";i:0;s:9:"deletedon";s:27:"1970-01-01T00:00:00.000000Z";s:9:"deletedby";i:0;s:11:"publishedon";i:1130304721;s:11:"publishedby";i:1;s:9:"menutitle";s:14:"Головна";s:14:"hide_from_tree";b:0;s:10:"privateweb";b:0;s:10:"privatemgr";b:0;s:13:"content_dispo";b:0;s:8:"hidemenu";b:0;s:13:"alias_visible";i:1;s:13:"templatealias";s:9:"home-page";s:17:"__MODxDocGroups__";s:0:"";}<!--__MODxCacheSpliter__--><!doctype html>
+[!DocLister? &display=`3` &summary=`notags,len:200` &dateSource=`pub_date` &parents=`4` &tvList=`foto` &id=`lastnews` &tpl=`NewsList` &dateFormat=`%d %B %Y`!]";s:8:"richtext";b:1;s:8:"template";i:5;s:9:"menuindex";i:0;s:10:"searchable";i:1;s:9:"cacheable";i:1;s:9:"createdby";i:1;s:9:"createdon";i:1781873631;s:8:"editedby";i:1;s:8:"editedon";i:1781987807;s:7:"deleted";i:0;s:9:"deletedon";s:27:"1970-01-01T00:00:00.000000Z";s:9:"deletedby";i:0;s:11:"publishedon";i:1130304721;s:11:"publishedby";i:1;s:9:"menutitle";s:14:"Головна";s:14:"hide_from_tree";b:0;s:10:"privateweb";b:0;s:10:"privatemgr";b:0;s:13:"content_dispo";b:0;s:8:"hidemenu";b:0;s:13:"alias_visible";i:1;s:13:"templatealias";s:9:"home-page";s:17:"__MODxDocGroups__";s:0:"";}<!--__MODxCacheSpliter__--><!doctype html>
 <html lang="uk" data-bs-theme="dark">
   <head>
     <base href="http://localhost:8000/">
@@ -39,6 +32,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto"><li class="nav-item"><a class="nav-link" href="/">Головна</a></li><li class="nav-item"><a class="nav-link" href="/4/">Новини</a></li><li class="nav-item"><a class="nav-link" href="/1/">Фотогалерея</a></li><li class="nav-item"><a class="nav-link" href="/2/">Контакти</a></li></ul>
+            
+            <form class="d-flex" role="search" onsubmit="return false;">
+              <input class="form-control me-2 bg-dark text-white border-secondary" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            
           </div>
         </div>
       </nav>
@@ -94,14 +93,7 @@
       </div>
 
       <div class="container marketing">
-        <h3>Install Successful!</h3>
-<p>You have successfully installed Evolution CMS.</p>
-
-<h3>Getting Help</h3>
-<p>The <a href="http://evo.im/" target="_blank">Evolution CMS Community</a> provides a great starting point to learn all things Evolution CMS, or you can also <a href="http://evo.im/">see some great learning resources</a> (books, tutorials, blogs and screencasts).</p>
-<p>Welcome to Evolution CMS!</p>
-
-<hr class="my-5">
+        <hr class="my-5">
 <h3 class="mb-4">Останні новини</h3>
 
 [!DocLister? &display=`3` &summary=`notags,len:200` &dateSource=`pub_date` &parents=`4` &tvList=`foto` &id=`lastnews` &tpl=`NewsList` &dateFormat=`%d %B %Y`!]

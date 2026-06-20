@@ -30,6 +30,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto"><li class="nav-item"><a class="nav-link" href="/">Головна</a></li><li class="nav-item"><a class="nav-link" href="/4/">Новини</a></li><li class="nav-item"><a class="nav-link" href="/1/">Фотогалерея</a></li><li class="nav-item"><a class="nav-link" href="/2/">Контакти</a></li></ul>
+            
+            <form class="d-flex" role="search" onsubmit="return false;">
+              <input class="form-control me-2 bg-dark text-white border-secondary" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            
           </div>
         </div>
       </nav>
