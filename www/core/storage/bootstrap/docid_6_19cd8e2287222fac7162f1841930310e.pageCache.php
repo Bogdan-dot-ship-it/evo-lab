@@ -48,10 +48,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Контакти - Мій сайт</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
     <style>
-      /* Базові стилі carousel.css від Bootstrap */
       body { padding-top: 3rem; padding-bottom: 3rem; color: rgb(var(--bs-tertiary-color-rgb)); }
       .carousel { margin-bottom: 4rem; }
       .carousel-caption { bottom: 3rem; z-index: 10; }
@@ -77,7 +76,6 @@
               <input class="form-control me-2 bg-dark text-white border-secondary" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-            
           </div>
         </div>
       </nav>
@@ -87,23 +85,24 @@
       <div class="row">
         <div class="col-md-12">
           
-      <div class="bg-light p-3 mb-4 rounded" style="font-size: 18px;">
-    [!DLCrumbs? 
-    &showCurrent=`1` 
-    &ownerTPL=`@CODE:[+crumbs.wrap+]`
-    &tpl=`@CODE:<a href="[+url+]" class="text-decoration-none">[+title+]</a> <span class="mx-2 text-secondary">/</span> ` 
-    &tplCurrent=`@CODE:<span class="text-secondary">[+title+]</span>`
-    !]
-</div>
+          <div class="bg-light p-3 mb-4 rounded" style="font-size: 18px;">
+            [!DLCrumbs? 
+            &showCurrent=`1` 
+            &ownerTPL=`@CODE:[+crumbs.wrap+]`
+            &tpl=`@CODE:<a href="[+url+]" class="text-decoration-none">[+title+]</a> <span class="mx-2 text-secondary">/</span> ` 
+            &tplCurrent=`@CODE:<span class="text-secondary">[+title+]</span>`
+            !]
+          </div>
+
           <h1 class="mb-4">Контакти</h1>
           
           <div class="content-wrapper">
-    <div class="mb-4">
-    <img src="http://localhost:8000/" onerror="this.style.display='none'" class="img-fluid rounded shadow-sm" style="max-width: 500px;" alt="Контакти">
-</div>
-    <p class="lead fw-bold"></p>
-    
-    <div>[!FormLister?
+            <div class="mb-4">
+              <img src="http://localhost:8000/" onerror="this.style.display='none'" class="img-fluid rounded shadow-sm" style="max-width: 500px;" alt="Контакти">
+            </div>
+            <p class="lead fw-bold"></p>
+            
+            <div>[!FormLister?
 &formid=`contactForm`
 &formTpl=`@CODE:
 <form action="[~6~]" method="post">
@@ -146,7 +145,8 @@
 </form>
 `
 !]</div>
-</div>
+          </div>
+
         </div>
       </div>
     </main>
